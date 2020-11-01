@@ -1,3 +1,9 @@
+# DS_Store MacOS
+.DS_Store
+
+# Build React
+build
+
 # Logs
 logs
 *.log
