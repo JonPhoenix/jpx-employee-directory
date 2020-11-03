@@ -1,5 +1,14 @@
+header.jumbotron.jumbotron-fluid {
+    text-align: center;
+    background-color: #031629;
+    color: #ffffff;
+    border-bottom: 5px solid #00b2da;
+    font-family: Roboto;
+}
+
 .form-inline {
     width: 180px;
+    padding: 20px;
     margin: 0 auto;
 }
 
