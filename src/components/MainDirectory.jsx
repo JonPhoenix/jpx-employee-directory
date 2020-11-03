@@ -137,6 +137,10 @@ class MainDirectory extends Component {
         return (
             <>
                 < Header />
+                < Search 
+                    filterByName={this.filterByName} 
+                    query={this.state.query} 
+                />
                 < EmployeesTable 
                     employees={employeesList} 
                     sortAlpha={this.sortAlpha} 
