@@ -6,8 +6,8 @@ class Header extends Component {
         return (
             <header className='jumbotron jumbotron-fluid'>
                 <div className='container'>
-                    <h3 className='display-4'>Employee Directory</h3>
-                    <p className='lead'>Search for an employee and sort the employees by name.</p>
+                    <h1 className='display-3'>Employee Directory</h1>
+                    <p className='lead'>Search for an employee. Sort the employees by name.</p>
                 </div>
             </header>
         );
