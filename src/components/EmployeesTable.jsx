@@ -31,13 +31,13 @@ class EmployeesTable extends Component {
             <table className='table table-bordered table-striped'>
                 <thead>
                     <tr>
-                        <th scope='col'>#</th>
-                        <th scope='col'>Image</th>
-                        <th scope='col' className="click-me" title="Sort Alphabetically" 
-                            onClick={() => this.props.sortAlpha(this.props.employees)}>Name {this.props.sortArrow}</th>
-                        <th scope='col'>Phone</th>
-                        <th scope='col'>Email</th>
-                        <th scope='col'>DOB</th>
+                        <th scope = 'col'>#</th>
+                        <th scope = 'col'>Image</th>
+                        <th scope = 'col' className="click-me" title="Sort Alphabetically" 
+                            onClick = {() => this.props.sortAlpha(this.props.employees)}>Name {this.props.sortArrow}</th>
+                        <th scope = 'col'>Phone</th>
+                        <th scope = 'col'>Email</th>
+                        <th scope = 'col'>DOB</th>
                     </tr>
                 </thead>
                 <tbody>
