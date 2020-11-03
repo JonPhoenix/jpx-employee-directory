@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jpx-employee-directory/static/css/main.e533010f.chunk.css",
+    "main.js": "/jpx-employee-directory/static/js/main.00379d92.chunk.js",
+    "main.js.map": "/jpx-employee-directory/static/js/main.00379d92.chunk.js.map",
+    "runtime-main.js": "/jpx-employee-directory/static/js/runtime-main.05960958.js",
+    "runtime-main.js.map": "/jpx-employee-directory/static/js/runtime-main.05960958.js.map",
+    "static/js/2.ad1388ed.chunk.js": "/jpx-employee-directory/static/js/2.ad1388ed.chunk.js",
+    "static/js/2.ad1388ed.chunk.js.map": "/jpx-employee-directory/static/js/2.ad1388ed.chunk.js.map",
+    "index.html": "/jpx-employee-directory/index.html",
+    "static/css/main.e533010f.chunk.css.map": "/jpx-employee-directory/static/css/main.e533010f.chunk.css.map",
+    "static/js/2.ad1388ed.chunk.js.LICENSE.txt": "/jpx-employee-directory/static/js/2.ad1388ed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05960958.js",
+    "static/js/2.ad1388ed.chunk.js",
+    "static/css/main.e533010f.chunk.css",
+    "static/js/main.00379d92.chunk.js"
+  ]
+}
