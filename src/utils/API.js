@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 
 // Getting all the employees
 export default {
