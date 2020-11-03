@@ -4,7 +4,7 @@ class Search extends Component {
     render() {
         return (
             <div>
-                <form id='search-form' className='form-inline'>
+                <form className='form-inline'>
                     <div className='form-group mb-2'>
                         <label htmlFor='Search' className='sr-only'>Search Employee</label>
                         <input 
