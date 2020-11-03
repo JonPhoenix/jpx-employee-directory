@@ -73,6 +73,45 @@ class MainDirectory extends Component {
         });
     };
 
+    // Sort employees alphabetically by name
+    sortAlpha = employees => {
+        const sortType = this.state.sortType;
+
+        if (sortType === 'desc' || sortType === '') {
+            //Ascending order:
+            employees.sort(this.dynamicSort('name'));
+            this.setState({
+                sortEmployees: employees,
+                sortType: 'asc'
+            });
+        } else if (sortType === 'asc') {
+            //Descending order:
+            employees.sort(this.dynamicSort('-name'));
+            this.setState({
+                sortEmployees: employees,
+                sortType: 'desc'
+            });
+        };
+    };
+
+    // Sort employees alphabetically reversed by name
+    dynamicSort = property => {
+        var sortOrder = 1;
+
+        if(property[0] === '-') {
+            sortOrder = -1;
+            property = property.substr(1);
+        };
+
+        return function (a,b) {
+            if (sortOrder === -1) {
+                return b[property].localeCompare(a[property]);
+            } else {
+                return a[property].localeCompare(b[property]);
+            }        
+        };
+    };
+
     render() {
         let employeesList;
 
@@ -80,12 +119,29 @@ class MainDirectory extends Component {
             employeesList = this.state.sortEmployees;
         } else {
             employeesList = this.state.employees;
-        }
+        };
+
+        let sortArrow;
+        const sortState = this.state.sortType;
+
+        if (sortState === 'asc') {
+            //down arrow
+            sortArrow = <span>&#9660;</span>;
+        } else if (sortState === 'desc') {
+            //up arrow
+            sortArrow = <span>&#9650;</span>;
+        } else {
+            sortArrow = '';
+        };
 
         return (
             <>
                 < Header />
-                < EmployeesTable employees={employeesList} />
+                < EmployeesTable 
+                    employees={employeesList} 
+                    sortAlpha={this.sortAlpha} 
+                    sortArrow={sortArrow} 
+                />
             </>
         );
     };
