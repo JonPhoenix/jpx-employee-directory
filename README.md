@@ -1,55 +1,64 @@
-# jpx-employee-directory
+![License Badge](https://img.shields.io/badge/License-MIT-0298c3)
 
-## Overview
+# Employee Directory
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+  ## Table of Contents
+  - [Project description](#project-description)
+  - [User story](#user-story)
+  - [Installation](#installation)
+  - [Features](#features)
+  - [Application preview](#application-preview)
+  - [Technology](#technology-and-framework)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
+  - [License](#license)
 
-## User Story
+  ## Project Description
+  The [**Employee Directory**](https://jonphoenix.github.io/jpx-employee-directory/) provides managers with an access to employees' non-sensitive data. The interface displays the name, phone number, email, date of birth and the photograph of each employee. The **Employee Directory** allows the user to filter and search employees by name.
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+  ## User Story
+  - - -
+  - As a manager, I want to be able to view my entire employee directory at once in an organized way
+  - So that I have quick access to their non-sensitive information
+  - And filter and search any employee by name
+  - - -
 
-## Business Context
+  ## Installation
+  The **Employee Directory** app is deployed in Github pages, no special installation is required other than a web browser for mobile or desktop devices. ([**Google Chrome**](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwv7L6BRDxARIsAGj-34pI6kcGFGrZkxQgztLSwZZ7JzwQJFBfDBdgTHCurYEpg3QscMjHhYUaAkkjEALw_wcB&gclsrc=aw.ds) is recommended).
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+  ## Features
+  **Employee Directory:** 
+  - Gives the user the option to filter employees by name.
+  - Gives the user the option to search any employee by name.
+  - Displays the photo, name, phone, email, and date of birth of each employee in a polished table.
 
-## Acceptance Criteria
+  ## Application Preview
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
+  ![employee-directory-01](demo/jpx-employee-directory-01.png)
 
-The user should be able to:
+  ![employee-directory-02](demo/jpx-employee-directory-02.png)
 
-  * Sort the table by at least one category
+  ![employee-directory-03](demo/jpx-employee-directory-03.png)
 
-  * Filter the users by at least one property.
+  ![employee-directory-04](demo/jpx-employee-directory-04.png)
 
-## Commit Early and Often
+  ## Technology and Framework  
+  - React.js
+  - UI components
+  - Node.js
+  - Github Pages
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+  ## Contributing
+  
+ ![GitHub Badge](https://img.shields.io/badge/Github-JonPhoenix-0298c3)
+  
+ ![Profile Pic](https://github.com/JonPhoenix.png?size=120)
+ 
+ [Application repository](https://github.com/JonPhoenix/jpx-employee-directory)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+  ## Questions
+  - For further questions, please contact the author at: jonphx@uw.edu
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* the URL to the deployed application
-
-* the URL to the Github repository
-
+  ## License
+    MIT
+  - - -
